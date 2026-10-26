@@ -1,0 +1,49 @@
+scenario,map,planner,success,tasks_assigned,tasks_pending,alloc_ms,plan_ms,makespan,sum_of_costs,total_path_length,path_efficiency,conflicts_initial,conflicts_final,cbs_nodes,note
+DEMO,topometric,independent,0,3,0,0.448,0.102,29,79,73,1.0,3,3,0,conflicts remain
+DEMO,topometric,prioritized,1,3,0,0.427,0.772,29,79,73,1.0,3,0,0,
+DEMO,topometric,cbs,1,3,0,0.423,3.064,29,79,73,1.0,3,0,2,
+DEMO,grid,independent,0,3,0,1.088,0.264,29,79,73,1.0,5,5,0,conflicts remain
+DEMO,grid,prioritized,1,3,0,1.089,1.292,29,79,73,1.0,5,0,0,
+DEMO,grid,cbs,1,3,0,1.025,8.384,29,79,73,1.0,5,0,2,
+P-AXBYCZ,topometric,independent,1,3,0,0.515,0.091,25,71,65,1.0,0,0,0,
+P-AXBYCZ,topometric,prioritized,1,3,0,0.404,0.63,25,71,65,1.0,0,0,0,
+P-AXBYCZ,topometric,cbs,1,3,0,0.449,0.822,25,71,65,1.0,0,0,0,
+P-AXBYCZ,grid,independent,1,3,0,1.028,0.196,25,71,65,1.0,0,0,0,
+P-AXBYCZ,grid,prioritized,1,3,0,1.111,1.208,25,71,65,1.0,0,0,0,
+P-AXBYCZ,grid,cbs,1,3,0,1.004,1.798,25,71,65,1.0,0,0,0,
+P-AXBZCY,topometric,independent,1,3,0,0.534,0.151,25,71,65,1.0,0,0,0,
+P-AXBZCY,topometric,prioritized,1,3,0,0.684,0.801,25,71,65,1.0,0,0,0,
+P-AXBZCY,topometric,cbs,1,3,0,0.618,0.863,25,71,65,1.0,0,0,0,
+P-AXBZCY,grid,independent,1,3,0,1.083,0.169,25,71,65,1.0,0,0,0,
+P-AXBZCY,grid,prioritized,1,3,0,1.141,1.185,25,71,65,1.0,0,0,0,
+P-AXBZCY,grid,cbs,1,3,0,1.05,1.605,25,71,65,1.0,0,0,0,
+P-AYBXCZ,topometric,independent,0,3,0,0.406,0.09,25,71,65,1.0,3,3,0,conflicts remain
+P-AYBXCZ,topometric,prioritized,1,3,0,0.405,0.572,25,72,65,0.9861,3,0,0,
+P-AYBXCZ,topometric,cbs,1,3,0,0.41,1.701,25,72,65,0.9861,3,0,1,
+P-AYBXCZ,grid,independent,0,3,0,1.089,0.199,25,71,65,1.0,9,9,0,conflicts remain
+P-AYBXCZ,grid,prioritized,1,3,0,1.085,1.282,25,72,65,0.9861,9,0,0,
+P-AYBXCZ,grid,cbs,1,3,0,1.058,3.526,25,72,65,0.9861,9,0,1,
+P-AYBZCX,topometric,independent,1,3,0,0.462,0.091,29,75,69,1.0,0,0,0,
+P-AYBZCX,topometric,prioritized,1,3,0,0.411,0.553,29,75,69,1.0,0,0,0,
+P-AYBZCX,topometric,cbs,1,3,0,0.428,0.883,29,75,69,1.0,0,0,0,
+P-AYBZCX,grid,independent,1,3,0,1.096,0.196,29,75,69,1.0,0,0,0,
+P-AYBZCX,grid,prioritized,1,3,0,1.024,1.169,29,75,69,1.0,0,0,0,
+P-AYBZCX,grid,cbs,1,3,0,1.025,1.744,29,75,69,1.0,0,0,0,
+P-AZBXCY,topometric,independent,0,3,0,0.45,0.091,27,75,69,1.0,2,2,0,conflicts remain
+P-AZBXCY,topometric,prioritized,1,3,0,0.433,0.686,27,76,69,0.9868,2,0,0,
+P-AZBXCY,topometric,cbs,1,3,0,0.405,1.953,28,76,69,0.9868,2,0,1,
+P-AZBXCY,grid,independent,0,3,0,1.008,0.238,27,75,69,1.0,2,2,0,conflicts remain
+P-AZBXCY,grid,prioritized,1,3,0,1.174,1.588,27,79,73,0.9494,2,0,0,
+P-AZBXCY,grid,cbs,1,3,0,1.051,5.874,28,76,69,0.9868,2,0,2,
+P-AZBYCX,topometric,independent,0,3,0,0.448,0.105,29,79,73,1.0,3,3,0,conflicts remain
+P-AZBYCX,topometric,prioritized,1,3,0,0.412,0.583,29,79,73,1.0,3,0,0,
+P-AZBYCX,topometric,cbs,1,3,0,0.461,3.303,29,79,73,1.0,3,0,2,
+P-AZBYCX,grid,independent,0,3,0,1.073,0.238,29,79,73,1.0,5,5,0,conflicts remain
+P-AZBYCX,grid,prioritized,1,3,0,1.012,1.475,29,79,73,1.0,5,0,0,
+P-AZBYCX,grid,cbs,1,3,0,1.097,6.42,29,79,73,1.0,5,0,2,
+OVERLOAD,topometric,independent,0,3,1,0.563,0.088,29,75,69,1.0,3,3,0,conflicts remain
+OVERLOAD,topometric,prioritized,1,3,1,0.539,0.556,29,76,69,0.9868,3,0,0,
+OVERLOAD,topometric,cbs,1,3,1,0.817,1.808,29,76,69,0.9868,3,0,1,
+OVERLOAD,grid,independent,0,3,1,1.369,0.185,29,75,69,1.0,9,9,0,conflicts remain
+OVERLOAD,grid,prioritized,1,3,1,1.409,1.277,29,76,69,0.9868,9,0,0,
+OVERLOAD,grid,cbs,1,3,1,1.726,4.084,29,76,69,0.9868,9,0,1,
