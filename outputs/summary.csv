@@ -1,0 +1,7 @@
+map,planner,runs,mission_success_rate,mean_conflicts_initial,mean_conflicts_unresolved,mean_makespan,mean_sum_of_costs,mean_path_length,mean_path_efficiency,mean_alloc_ms,mean_plan_ms,mean_cbs_nodes
+topometric,independent,8,3/8,1.75,1.75,27.25,74.5,68.5,1.0,0.48,0.1,0.0
+topometric,prioritized,8,8/8,1.75,0.0,27.25,74.88,68.5,0.99,0.46,0.64,0.0
+topometric,cbs,8,8/8,1.75,0.0,27.38,74.88,68.5,0.99,0.5,1.8,0.88
+grid,independent,8,3/8,3.75,3.75,27.25,74.5,68.5,1.0,1.1,0.21,0.0
+grid,prioritized,8,8/8,3.75,0.0,27.25,75.25,69.0,0.99,1.13,1.31,0.0
+grid,cbs,8,8/8,3.75,0.0,27.38,74.88,68.5,0.99,1.13,4.18,1.0
